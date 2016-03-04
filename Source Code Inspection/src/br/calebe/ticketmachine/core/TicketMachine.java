@@ -8,7 +8,7 @@ import java.util.Iterator;
  *
  * @author Calebe de Paula Bianchini
  */
-public class TicketMachine {
+public class TicketMachine{
 
     protected int valor;
     protected int saldo;
