@@ -35,6 +35,32 @@ public class TicketMachine{
     public int getSaldo() {
         return saldo;
     }
+    
+    
+
+    public int getValor() {
+        return valor;
+    }
+    
+    
+
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+    
+    
+
+    public int[] getPapelMoeda() {
+        return papelMoeda;
+    }
+    
+    
+
+    public void setPapelMoeda(int[] papelMoeda) {
+        this.papelMoeda = papelMoeda;
+    }
+    
+    
 
     public Iterator<Integer> getTroco() {
         return null;
