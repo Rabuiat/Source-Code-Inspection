@@ -33,5 +33,4 @@ public class PapelMoeda{
     public String toString() {
         return "PapelMoeda{" + "valor=" + valor + ", quantidade=" + quantidade + '}';
     }
-  
 }
