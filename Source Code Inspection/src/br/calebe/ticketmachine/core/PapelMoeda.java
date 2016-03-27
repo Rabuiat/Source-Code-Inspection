@@ -13,6 +13,14 @@ public class PapelMoeda{
         this.quantidade = quantidade;
     }
 
+    public void setValor(int valor) {
+        this.valor = valor;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
     public int getValor() {
         return valor;
     }
@@ -20,4 +28,10 @@ public class PapelMoeda{
     public int getQuantidade() {
         return quantidade;
     }
+
+    @Override
+    public String toString() {
+        return "PapelMoeda{" + "valor=" + valor + ", quantidade=" + quantidade + '}';
+    }
+  
 }
