@@ -51,28 +51,22 @@ public class PapelMoedaTest {
     }
     
     @Test
-    public void testGetValor() {
+    public void CenarioSetValorParaPapelMoeda() {
         System.out.println("getValor");
-        PapelMoeda instance = null;
-        int expResult = 0;
-        int result = instance.getValor();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        PapelMoeda instance = new PapelMoeda(50, 2);
+        instance.setValor(100);
+        assertEquals(100, instance.getValor());
     }
 
     /**
      * Test of getQuantidade method, of class PapelMoeda.
      */
     @Test
-    public void testGetQuantidade() {
-        System.out.println("getQuantidade");
-        PapelMoeda instance = null;
-        int expResult = 0;
-        int result = instance.getQuantidade();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    public void CenarioSetQuantidadeParaPapelMoeda() {
+        System.out.println("getValor");
+        PapelMoeda instance = new PapelMoeda(50, 2);
+        instance.setQuantidade(4);
+        assertEquals(4, instance.getQuantidade());
     }
 
     /**
