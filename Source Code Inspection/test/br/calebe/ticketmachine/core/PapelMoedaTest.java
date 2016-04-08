@@ -75,12 +75,12 @@ public class PapelMoedaTest {
     @Test
     public void testToString() {
         System.out.println("toString");
-        PapelMoeda instance = null;
-        String expResult = "";
+        PapelMoeda instance = new PapelMoeda(50, 2);
+        int valor = instance.getValor();
+        int quantidade = instance.getQuantidade();
+        String expResult = "PapelMoeda{" + "valor=" + valor + ", quantidade=" + quantidade + '}';
         String result = instance.toString();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
